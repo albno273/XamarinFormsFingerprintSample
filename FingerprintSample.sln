@@ -1,0 +1,66 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingerprintSample", "FingerprintSample\FingerprintSample.csproj", "{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingerprintSample.iOS", "iOS\FingerprintSample.iOS.csproj", "{40E93428-D047-4AB6-A07B-92888222D23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingerprintSample.Droid", "Droid\FingerprintSample.Droid.csproj", "{5020739F-72D1-450F-A5DA-AF3302954DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Release|iPhone.Build.0 = Release|Any CPU
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{60313BFA-14A7-4724-BD85-8BAFFE2E3AFE}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Release|Any CPU.Build.0 = Release|iPhone
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Release|iPhone.Build.0 = Release|iPhone
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{40E93428-D047-4AB6-A07B-92888222D23F}.Debug|iPhone.Build.0 = Debug|iPhone
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Release|iPhone.Build.0 = Release|Any CPU
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5020739F-72D1-450F-A5DA-AF3302954DC8}.Debug|iPhone.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = application/xaml+xml
+		$0.XmlFormattingPolicy = $2
+		$2.inheritsSet = null
+		$2.scope = application/xaml+xml
+	EndGlobalSection
+EndGlobal

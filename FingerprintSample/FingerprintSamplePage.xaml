@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	         xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	         xmlns:local="clr-namespace:FingerprintSample"
+	         x:Class="FingerprintSample.FingerprintSamplePage">
+  <StackLayout Orientation="Vertical" Padding="10">
+    <StackLayout Orientation="Horizontal">
+      <StackLayout.IsVisible>
+        <OnPlatform x:TypeArguments="x:Boolean"
+				    iOS="True" Android="True" WinPhone="False" />
+      </StackLayout.IsVisible>
+      <Switch x:Name="swAutoCancel" />
+      <Label Text="10秒後に自動でキャンセル" />
+    </StackLayout>
+    <Button Text="認証してみる" Clicked="OnAuthenticate" />
+    <Label x:Name="lblStatus" />
+  </StackLayout>
+</ContentPage>
